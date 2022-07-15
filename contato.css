@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FFC107;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    box-shadow: 0px 4px 4px rgb(109, 56, 56);
+}
+
+nav {
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 7px 30px 7px 30px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;;
+}
+
+#img1 {
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    font-size: 70px;
+    color: #FFffFF;
+    z-index: 1;
+    margin: 65px 0 0 120px;
+    width: 350px;
+}
+
+#img2 {
+    margin: 65px 0 200px 120px;
+}
+
+form {
+    font-size: 40px;
+    color: #FFC107;
+    width: 820px;
+    height: 766px;
+    border: 1px solid #FFA000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.import {
+    display: flex;
+    justify-content: flex-start;
+    margin: 100px;
+}
+
+#phone {
+    margin: 0 30px 50px 50px;    
+}
+
+form label {
+    margin: 50px 0 0 80px;
+}
+
+#name {
+    width: 750px;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 15px 30px 15px 30px;
+    margin: 0 0 20px 30px;
+}
+
+#email {
+    width: 750px;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 15px 30px 15px 30px;
+    margin: 0 0 20px 30px;
+}
+
+#message {
+    width: 750px;
+    height: 294px;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 15px 30px 15px 30px;
+    margin: 0 0 20px 30px;
+}
+
+#submit {
+    width: 164px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: #FFC107;
+    color: #FFffFF;
+    margin: 0 0 0 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #FFC107;
+}
+strong {
+    color: white;
+    position: relative;
+    bottom: 30px;
+}
